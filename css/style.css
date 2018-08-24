@@ -1,0 +1,159 @@
+     h5 {
+         text-align: -webkit-right;
+         font-family: sans-serif;
+         font-size: smaller;
+     }
+
+     h4 {
+         text-align: -webkit-right;
+         font-family: sans-serif;
+         font-size: large;
+         margin: auto;
+         margin-top: -90px;
+     }
+
+     div#fundo {
+         background: #A4A4A4;
+         width: 800px;
+         height: 1800px;
+         text-align: justify;
+         padding: 20px;
+         margin: 0px 250px;
+     }
+
+
+     h2 {
+         font-size: xx-large;
+         font-family: sans-serif;
+         text-align: -webkit-center;
+     }
+
+
+
+
+     img#topotitulo {
+         height: 100px;
+         width: 500px;
+     }
+
+     img#imagemtexto {
+         height: 500px;
+         width: 600px;
+         position: relative;
+         margin-right: 200px;
+         margin-left: 100px;
+     }
+
+     div#barra {
+         background: black;
+         height: 9px
+     }
+
+     div#texto {
+         padding: inherit;
+         margin: 5px 5px 10px;
+         text-align: -webkit-auto;
+         font-size: larger;
+
+         text-align: inherit;
+         font-family: sans-serif;
+         font-size: medium
+     }
+
+     div#content-box {
+         column-count: 2;
+         column-rule: 1px solid black;
+         column-fill: balance;
+         text-align: justify;
+         padding: 1px;
+     }
+
+     img#foto-turma {
+         height: 590px;
+         width: 600px;
+         position: relative;
+         margin-right: 200px;
+         margin-left: 100px;
+     }
+
+     #menu {
+         width: 980px;
+         height: 35px;
+     }
+
+     #menu li {
+         float: left;
+         font-size: 0.8em;
+         display: block;
+         text-decoration: none;
+     }
+
+     #menu li#search {
+         background-color: #F5F5F5;
+         width: 246px;
+         height: 23px;
+         border: #edede5 solid 4px;
+         text-align: center;
+         padding-top: 5px;
+     }
+
+     #menu li.menu_link a:link,
+     #menu li.menu_link a:visited {
+         display: block;
+         background: url(../img/menu_gradient.gif) repeat-x;
+         height: 25px;
+         width: 113px;
+         text-align: center;
+         border: #af0000 solid 3px;
+         margin-left: 7px;
+         color: #000000;
+         font-size: 1.2em;
+         font-variant: small-caps;
+         padding-top: 3px;
+         text-decoration: none;
+     }
+
+     #menu li.menu_link a:hover,
+     #menu li.menu_link a:active {
+         display: block;
+         height: 23px;
+         width: 110px;
+         text-align: center;
+         border: #edede5 solid 2px;
+         text-align: center;
+         padding-top: 3px;
+         text-decoration: none;
+         font-size: 1.2em;
+         font-variant: small-caps;
+         margin-left: 7px;
+     }
+
+     #menu li#menu_link_first a:link,
+     #menu li#menu_link_first a:visited {
+         display: block;
+         background: url(../img/menu_gradient.gif) repeat-x;
+         height: 25px;
+         width: 113px;
+         text-align: center;
+         border: #af0000 solid 3px;
+         margin-left: 5px;
+         color: #ffffff;
+         font-size: 1.2em;
+         font-variant: small-caps;
+         padding-top: 3px;
+     }
+
+     #menu li#menu_link_first a:hover,
+     #menu li#menu_link_first a:active {
+         display: block;
+         height: 23px;
+         width: 110px;
+         text-align: center;
+         border: #edede5 solid 2px;
+         text-align: center;
+         padding-top: 3px;
+         text-decoration: none;
+         font-size: 1.2em;
+         font-variant: small-caps;
+         margin-left: 5px;
+     }
