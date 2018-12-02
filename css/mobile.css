@@ -1,0 +1,716 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 1.0em;
+    color: aliceblue;
+    font-weight: 200;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 10px 10px;
+}
+
+th {
+    color: #fff;
+    background: #990000 none repeat-x scroll left top;
+}
+
+td {
+    border-bottom: 1px solid #333;
+}
+
+code,
+blockquote {
+    display: block;
+    border-left: 5px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+code {
+    background-color: #222;
+}
+
+blockquote p {
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+    color: #ccc;
+    height: 1%;
+}
+
+p {
+    line-height: 1.9em;
+    margin-bottom: 20px;
+}
+
+a,
+.sidebar li ul li a.readmore {
+    color: #999;
+}
+
+a:hover,
+.sidebar li ul li a.readmore:hover {
+    color: black;
+}
+
+a:focus {
+    outline: none;
+}
+
+
+a.button {
+    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+    background: -moz-linear-gradient(top, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8', GradientType=0);
+    /* IE6-9 */
+    ;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100&0+0,1+100 */
+    background: -moz-linear-gradient(top, rgba(125, 185, 232, 0) 0%, rgba(30, 87, 153, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(125, 185, 232, 0) 0%, rgba(30, 87, 153, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(125, 185, 232, 0) 0%, rgba(30, 87, 153, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#1e5799', GradientType=0);
+    /* IE6-9 */
+    ;
+}
+
+
+fieldset {
+    display: block;
+    border: none;
+    border-top: 1px solid #333;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 13px;
+    padding-right: 10px;
+    color: #999;
+}
+
+fieldset form {
+    padding-top: 15px;
+}
+
+fieldset p label {
+    float: left;
+    width: 150px;
+}
+
+form input,
+form select,
+form textarea {
+    background-color: #333;
+    padding: 5px;
+    color: #333333;
+    border: 1px solid #333;
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+form input.formbutton {
+    border: none;
+    background-color: #990000;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 6px 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: auto;
+    overflow: visible;
+}
+
+form.searchform input {
+    font-size: 15px;
+    padding: 6px;
+}
+
+form.searchform p {
+    margin: 5px 0;
+}
+
+
+span.required {
+    color: #ff0000;
+}
+
+h1 {
+    color: #ccc;
+    font-size: 2.0em;
+}
+
+h2 {
+    color: #ccc;
+    font-size: 1.8em;
+    letter-spacing: 0px;
+    font-weight: normal;
+    padding: 0 0 5px;
+    margin: 0;
+}
+
+h3 {
+    color: #990000;
+    font-size: 1.6em;
+    font-weight: normal;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+h4 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h5 {
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    color: #999;
+}
+
+ul,
+ol {
+    margin: 0 0 35px 35px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+li ol,
+li ul {
+    font-size: 1.0em;
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+
+.width {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#container {
+    background-color: #222;
+    width: 980px;
+    border-left: 30px solid #111;
+    border-right: 30px solid #111;
+    margin: 0 auto;
+}
+
+header {
+    padding: 40px 20px;
+    background-color: background: rgb(10, 9, 9);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(10, 9, 9, 1) 0%, rgba(223, 229, 215, 1) 39%, rgba(252, 255, 244, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(10, 9, 9, 1) 0%, rgba(223, 229, 215, 1) 39%, rgba(252, 255, 244, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(10, 9, 9, 1) 0%, rgba(223, 229, 215, 1) 39%, rgba(252, 255, 244, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0909', endColorstr='#fcfff4', GradientType=0);
+    /* IE6-9 */
+    ;
+    margin: 0 auto;
+    text-align: left;
+}
+
+header h1 a,
+header h1 a:hover {
+    color: #919191;
+    font-size: 1.4em;
+    padding: 10px;
+    font-weight: normal;
+    letter-spacing: -2px;
+    line-height: 1.2em;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+
+nav {
+    border-top: 1px solid ##52658C;
+    border-bottom: 1px solid #52658C;
+    height: 45px;
+    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100 */
+    background: -moz-linear-gradient(top, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8', GradientType=0);
+    /* IE6-9 */
+    ;
+}
+
+nav li ul {
+    display: block;
+}
+
+nav li:hover ul {
+    display: none
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+    display: block;
+    padding: 0;
+}
+
+nav ul li ul {
+    display: block;
+    visibility: collapse;
+}
+
+
+nav ul li a {
+    color: #ccc;
+    display: block;
+    font-size: 0.85em;
+    letter-spacing: 0;
+    margin: 5px 3px 0;
+    font-weight: normal;
+    padding: 8px 10px 8px;
+    text-decoration: none;
+}
+
+nav ul li.selected a,
+nav ul li.selected a:hover {
+    color: #fff;
+    background-color: #800000;
+    font-weight: bold;
+    box-shadow: -1px 1px 0 #660000;
+}
+
+
+nav ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li ul:hover ul {
+    color: #fff;
+    text-decoration: none;
+    display: none;
+}
+
+
+
+
+
+
+.edit ul:hover li;
+.edit ul.over li {
+    display: block
+}
+
+li ul li#edit {
+    display: block;
+}
+
+
+ul#edit {
+    position: absolute;
+    left: 180px;
+    margin: 40px;
+    background-color: #1e5799;
+    display: none;
+    width: 90px;
+}
+
+
+
+
+
+
+img.header-image {
+    padding-top: 10px;
+    margin-bottom: -3px;
+}
+
+#body {
+    background: none;
+    margin: 5px auto 0;
+    padding: 0;
+    clear: both;
+}
+
+#content {
+    float: right;
+    width: 71%;
+}
+
+article {
+    padding: 10px 5px 20px 10px;
+}
+
+article h2 {
+    padding-bottom: 0;
+    font-size: 2.2em;
+}
+
+article p,
+article ul,
+article ol {
+    font-size: 0.9em;
+}
+
+article .article-info {
+    color: #666;
+    font-size: 12px;
+    font-style: italic;
+    padding: 0 0 10px 0;
+}
+
+article .article-info a {
+    color: #666;
+}
+
+.sidebar {
+    float: left;
+    width: 28%;
+    margin-top: 10px;
+}
+
+.sidebar h4 {
+    padding-bottom: 0;
+    font-weight: 100;
+    color: #white;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    background-color: #666666;
+    box-shadow: -2px 2px 0px #000;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+    line-height: 1.9em;
+}
+
+.sidebar li ul {
+    list-style: none outside none;
+    margin: 0px;
+}
+
+.sidebar li ul li {
+    display: block;
+    border-top: none;
+    padding: 5px 7px;
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 0.8em;
+}
+
+.sidebar li ul li.text {
+    border-bottom: none;
+}
+
+
+
+.sidebar li ul li a {
+    font-weight: normal;
+    color: #666;
+}
+
+.sidebar li ul li a:hover {
+    color: #999;
+}
+
+
+.sidebar li ul li a.readmore {
+    font-weight: bold;
+}
+
+
+
+
+.clear {
+    clear: both;
+}
+
+footer {
+    margin: 20px auto 0;
+    background: background: rgb(10, 9, 9);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(10, 9, 9, 1) 0%, rgba(223, 229, 215, 1) 60%, rgba(252, 255, 244, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(10, 9, 9, 1) 0%, rgba(223, 229, 215, 1) 60%, rgba(252, 255, 244, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(10, 9, 9, 1) 0%, rgba(223, 229, 215, 1) 60%, rgba(252, 255, 244, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0909', endColorstr='#fcfff4', GradientType=0);
+    /* IE6-9 */
+    ;
+    border-top: 10px solid #1F4C81;
+}
+
+footer p {
+    text-align: left;
+    color: #ccc;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+footer p a {
+    color: #ccc;
+    font-weight: bold;
+}
+
+.footer-content {
+    padding: 20px 25px 30px;
+}
+
+footer .footer-content ul {
+    width: 260px;
+    list-style: none;
+    margin: 0 65px 0 0;
+    padding: 0;
+    float: left;
+}
+
+footer .footer-content li {
+    padding: 5px 5px;
+}
+
+footer .footer-content li a,
+footer .footer-content h4 {}
+
+footer .footer-content li a {
+    color: #505050;
+    font-size: 0.8em;
+    text-decoration: underline;
+}
+
+footer .footer-content li a:hover {
+    color: #909090;
+}
+
+footer .footer-content h4 {
+    color: #999;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+footer .footer-content ul.endfooter {
+    margin-right: 0;
+}
+
+footer .footer-bottom {
+    padding: 10px;
+    text-align: center;
+    background-color: #111111;
+}
+
+footer .footer-bottom p {
+    text-align: center;
+}
+
+footer .footer-bottom p,
+footer .footer-bottom p a {
+    color: #666;
+}
+
+
+
+
+
+@media screen and (max-width: 740px) {
+
+    body {
+        font-size: 0.8em;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    div#container {
+        width: auto;
+    }
+
+    footer .footer-content ul {
+        margin-bottom: 15px;
+    }
+
+    footer .footer-content ul.endfooter {
+        margin-bottom: 0px;
+    }
+
+    .width {
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #content,
+    aside.sidebar {
+        float: none;
+        width: auto;
+    }
+
+    footer .footer-content ul {
+        width: auto;
+        float: none;
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+
+    body {
+        font-size: 0.8em;
+    }
+
+
+    nav ul li {
+        float: none;
+        text-align: center;
+    }
+
+    nav ul li a {
+        margin-top: 0;
+    }
+
+    nav {
+        height: auto;
+        position: relative;
+    }
+}
+
+img#topotitulo {
+    height: 100px;
+}
+
+
+li {
+    display: block;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div+div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+
+    height: 5em;
+
+    resize: vertical;
+}
+
+
+
+.footer-content.width {
+    color: black;
+    font-size: smaller;
+    font-family: sans-serif;
+}
+
+
+
+img#foto {
+    width: 270px;
+    position: absolute;
+    margin: 50px 660px;
+    margin-top: 11px;
+}
+
+
+
+#foot {
+    position: relative;
+    margin: 0px -29px -33px;
+    width: 991px;
+}
